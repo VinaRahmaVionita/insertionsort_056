@@ -47,3 +47,12 @@ void insertionsort() {
 		}
 	}
 }
+void display() {
+	cout << "\n==============================" << endl;
+	cout << "Elemen Array Yang Telah Tersusun" << endl;
+	cout << "================================" << endl;
+
+	for (int j = 0; j < n; j++) {
+		cout << arr[j] << " ";
+	}
+}
